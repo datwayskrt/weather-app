@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(54, 128, 202);
+  color: cornsilk;
+}
+html {
+  background-color: rgb(54, 128, 202);
+}
+
+p {
+  font-weight: bolder;
+}
+input {
+  width: 60vw;
+  height: 5vh;
+  font-weight: bold;
+  color:rgb(6, 101, 179);
+  border: 2px solid rgb(6, 101, 179);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+ 
+}
+h1{
+  background-color:darkviolet;
+}
+span{
+  color:gold;
+}
