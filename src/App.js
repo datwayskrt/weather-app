@@ -38,15 +38,28 @@ export default function App() {
           setCity(e.target.value);
         }}
       />
-      <p>City: <span>{data.location.name}</span></p>
-      <p>Temperature: <span>{data.current.temp_c} ºC</span></p>
-      <img src = {data.current.condition.icon} alt="icon"/>
-      <p>Condition: <span>{data.current.condition.text}</span></p>
-      <p>Wind Direction: <span>{data.current.wind_dir}</span></p>
-      <p>Country: <span>{data.location.country}</span></p>
-      <p>Local Time: <span>{data.location.localtime}</span></p>
-      <p>Continent: <span>{data.location.tz_id}</span></p>
-
+      <p>
+        City: <span>{data.location.name}</span>
+      </p>
+      <p>
+        Temperature: <span>{data.current.temp_c} ºC</span>
+      </p>
+      <img src={data.current.condition.icon} alt="icon" />
+      <p>
+        Condition: <span>{data.current.condition.text}</span>
+      </p>
+      <p>
+        Wind Direction: <span>{data.current.wind_dir}</span>
+      </p>
+      <p>
+        Country: <span>{data.location.country}</span>
+      </p>
+      <p>
+        Local Time: <span>{data.location.localtime}</span>
+      </p>
+      <p>
+        Continent: <span>{data.location.tz_id}</span>
+      </p>
     </div>
   );
 }

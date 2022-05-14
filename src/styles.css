@@ -15,17 +15,16 @@ input {
   width: 60vw;
   height: 5vh;
   font-weight: bold;
-  color:rgb(6, 101, 179);
+  color: rgb(6, 101, 179);
   border: 2px solid rgb(6, 101, 179);
   border-radius: 20px;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
- 
 }
-h1{
-  background-color:darkviolet;
+h1 {
+  background-color: darkviolet;
 }
-span{
-  color:gold;
+span {
+  color: gold;
 }
