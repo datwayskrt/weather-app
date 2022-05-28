@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.App {
+  font-family: 'Poppins';
+  text-align: center;
+  background-color: rgb(54, 128, 202);
+  color: cornsilk;
+}
+html {
+  background-color: rgb(54, 128, 202);
+}
+
+p {
+  font-weight: bolder;
+}
+input {
+  width: 60vw;
+  height: 5vh;
+  font-weight: bold;
+  color: rgb(6, 101, 179);
+  border: 2px solid rgb(6, 101, 179);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+h1 {
+  background-color: darkviolet;
+}
+span {
+  color: gold;
+}
+
